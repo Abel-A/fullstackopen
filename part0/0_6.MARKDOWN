@@ -1,5 +1,7 @@
 title 0_6: New note
 
+```mermaid
+
 note over browser:
 The user enters a note to the form input
 and clicks on the "Save" button.
@@ -17,3 +19,5 @@ The server stores the note.
 end note
 
 server-->browser: HTTP 201
+
+```

@@ -1,5 +1,7 @@
 title 0_4: New note
 
+```mermaid
+
 note over browser:
 The user enters a note to the form input
 and clicks on the "Save" button.
@@ -32,3 +34,6 @@ server-->browser: HTTP 200
 note over browser:
 main.js adds the requested data to the DOM.
 end note
+
+```
+

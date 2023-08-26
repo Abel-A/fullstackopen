@@ -1,5 +1,7 @@
 title 0_5: Single page app
 
+```mermaid
+
 note over browser:
 The user navigates to the page.
 end note
@@ -23,3 +25,5 @@ server-->browser: HTTP 200
 note over browser:
 spa.js adds the requested data to the DOM.
 end note
+
+```
