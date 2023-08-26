@@ -1,6 +1,5 @@
 title 0_6: New note
 
-```mermaid
 
 note over browser:
 The user enters a note to the form input
@@ -20,4 +19,3 @@ end note
 
 server-->browser: HTTP 201
 
-```
