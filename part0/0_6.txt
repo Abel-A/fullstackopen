@@ -1,21 +1,14 @@
-title 0_6: New note
+sequenceDiagram
+    title 0_6: New note
 
 
-note over browser:
-The user enters a note to the form input
-and clicks on the "Save" button.
-end note
+    note over browser: The user enters a note to the form input and clicks on the "Save" button. end note
 
-note over browser:
-spa.js adds the note to the DOM
-and sends it to the server.
-end note
+    note over browser: spa.js adds the note to the DOM and sends it to the server. end note
 
-browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
 
-note over server:
-The server stores the note.
-end note
+    note over server: The server stores the note. end note
 
-server-->browser: HTTP 201
+    server-->browser: HTTP 201
 
