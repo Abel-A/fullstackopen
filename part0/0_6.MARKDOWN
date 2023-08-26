@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     title 0_6: New note
 
@@ -12,3 +14,4 @@ sequenceDiagram
 
     server-->browser: HTTP 201
 
+```

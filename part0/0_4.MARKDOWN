@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     title 0_4: New note
 
@@ -25,4 +27,4 @@ sequenceDiagram
 
     note over browser: main.js adds the requested data to the DOM.end note
 
-        
+```        

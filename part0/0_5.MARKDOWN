@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     title 0_5: Single page app
 
@@ -19,4 +21,4 @@ sequenceDiagram
 
     note over browser: spa.js adds the requested data to the DOM. end note
 
-
+```
