@@ -33,6 +33,7 @@ const App = () => {
     if (!namePresent) {
       noteService.create(NameObject)
         .then(initalPhones => {
+          console.log(initalPhones)
           setPersons(persons.concat(initalPhones))
           setNewPersonMessage(`Added ${initalPhones.name}`)
           setTimeout(() => {setNewPersonMessage(null)}, 5000)
